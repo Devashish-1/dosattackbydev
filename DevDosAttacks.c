@@ -66,9 +66,9 @@
                                     sockets[x] = make_socket(host, port);
                             } else
     //                              fprintf(stderr, "Socket[%i->%i] -> %i\n", x, sockets[x], r);
-                            fprintf(stderr, "[%i: Voly Sent]\n", id);
+                            fprintf(stderr, "[%i: Socket Connected Successfully]\n", id);
                     }
-                    fprintf(stderr, "[%i: Voly Sent]\n", id);
+                    fprintf(stderr, "[%i: Socket Connected Successfully]\n", id);
                     usleep(300000);
             }
     }
@@ -96,5 +96,3 @@
             getc(stdin);
             return 0;
     }
-
-
